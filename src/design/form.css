@@ -1,0 +1,23 @@
+input{
+  /* min-width: 50%; */
+    margin-top: 7px;
+    margin-bottom: 5px;
+    border: 2px dotted lightgray;
+}
+
+input#session-date{
+  position:relative;
+  overflow:hidden;
+}
+input#session-date::-webkit-calendar-picker-indicator{
+  display:block;
+  top:0;
+  left:0;
+  background: #0000;
+  position:absolute;
+  transform: scale(12)
+}
+
+form{
+    border: 2px solid lightgrey ;
+}
